@@ -1,0 +1,11 @@
+cat > .gitignore <<'EOF'
+data.db
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.*
+.bundle/
+vendor/bundle/
+*.log
+EOF
