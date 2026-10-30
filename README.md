@@ -20,3 +20,15 @@ ruby insert.rb
 ruby multiple_insert.rb 
 ruby select.rb 
 
+on vscode use SQLite DB Viewer extention .
+or :
+you want open database directly :
+sqlite3 app.db
+
+Inside SQLite:
+
+.tables
+.schema users
+SELECT * FROM users;
+SELECT COUNT(*) FROM users;
+.quit
